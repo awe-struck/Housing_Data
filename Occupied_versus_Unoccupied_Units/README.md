@@ -104,7 +104,9 @@ From these hypothesis tests, there is a a general pattern with the Market Values
 
 
 1.) Through hypothesis testing againsit the Null, the results reject it for the years 2005 and 20011 and show a difference in Occupied vs Not Occupied Market Values
+
 2.) All market values for Occupied units are greater than or equal to Not Occupied units
+
 3.) Occupied values greater than Not occupied in 2005 and 2011 and equal in all other years
 
 
