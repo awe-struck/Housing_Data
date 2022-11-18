@@ -45,23 +45,16 @@ Several of the variables were derivatives of other variables or irrelevant to th
 
 ## Descriptive Statistics for VALUE (Occupied vs Not Occupied)
 
-Here is a brief overview of key descriptive statistics for the VALUE variable for Occupied vs Not Occupied housing units from 2005-2013.
+Here is a brief overview of key descriptive statistics for the VALUE variable for Single Family Housing Units from 2013
 
-![image](https://user-images.githubusercontent.com/115379520/202360623-4621a4ce-3f06-4283-bc8f-9cdb13048759.png)
+![image](https://user-images.githubusercontent.com/115379520/202650136-cccf6bd7-e97d-403a-89f5-3a9823965fb2.png)
 
 <br />
 
-Here are the distributions of VALUES (Occupied vs Not Occupied). The distributions show a right skew.
+Here are the distributions of VALUE vs Log Transformed Value. The former distributions show a right skew while the latter has a standard bell curve shape.
+![image](https://user-images.githubusercontent.com/115379520/202650288-ebddb73d-6312-4f8b-8a14-f91db3ac8ef7.png)
+![image](https://user-images.githubusercontent.com/115379520/202650350-7d723d79-31f3-42ad-b986-24e4677e41b4.png)
 
-![image](https://user-images.githubusercontent.com/115379520/202616759-7e37f418-feb8-4b74-94a4-b8c6bf745744.png)
-
-![image](https://user-images.githubusercontent.com/115379520/202616838-bb750ca9-d460-487e-aedb-7a47b2f1e8a0.png)
-
-![image](https://user-images.githubusercontent.com/115379520/202616866-391b29f9-8622-474e-9221-7b62d2b2ebdf.png)
-
-![image](https://user-images.githubusercontent.com/115379520/202616894-4120246c-346a-45b8-be11-ae30d6433135.png)
-
-![image](https://user-images.githubusercontent.com/115379520/202616926-86da8b3e-b13a-46e8-b0b0-a76ce2c10687.png)
 
 
 <br />
