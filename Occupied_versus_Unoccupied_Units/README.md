@@ -1,4 +1,4 @@
-# Difference in Market Value for Occupied vs Not Occupied housing units.
+# Difference in Market Value for Occupied vs Not Occupied Housing Units.
 
 ## Introduction
 
@@ -76,55 +76,35 @@ Hypothesis testing was done against the Null Hypothesis that there is no differe
 
 <br />
 
-When testing for Null Hypothesis that Occupied units are greater than or equal
-
-Now I test if the units Occupied is greater than or equal to units not occupied. The t-stats are not in the rejection region
-Since none are statistically significant. We do not reject the null. Thus, none of the years of occupied are less than not occupied
+When testing for Null Hypothesis that Occupied units are greater than or equal to Not Occupied Units. None of the years were statistically significant, so the there is not enough evidence to reject the Null. Thus, on average the Occupied Units are greater than or equal to Not Occupied units in terms of Market Value.
 
 ![image](https://user-images.githubusercontent.com/115379520/202633246-88dac704-7e2e-4e65-9c2d-4bc50a8a761b.png)
 
 
 <br />
 
-NOw i test if ocupied less rthan or equal to units not occupied
-2005	2.03791929	1.644903568
-2007	-1.12428212	1.644908474
-2009	-0.193604738	1.644902288
-2011	6.396999818	1.644871544
-2013	-0.259914481	1.644895178
+
+When testing for Null Hypothesis that Occupied units are less than or equal to Not Occupied Units. The years 2005 and 2011 were statistically significant. Thus, on average the Occupied Units for 2005 and 2011 were greater than Not Occupied units in terms of Market Value.
+
 
 ![image](https://user-images.githubusercontent.com/115379520/202633470-a1a66fe1-edc5-4173-a9d0-8c54f7275610.png)
 
+<br />
 
-2005 and 2011 fall in the rejection regions so we reject null and say than 2005 and 2011 were greater in market value for occupeid vs non occupied.
 
-Plotting the average value for each year against status, we can see the 2005 and 2011 both are greater for occupeid units
-
+From these hypothesis tests, there is a a general pattern with the Market Values. On average, the Market Value for Occupied Units was always greater than or equal to Not Occupied units. It was greater in 2005 and 2011 while equal in all other years. As shown below, both STATUS labels are roughly equal in terms of average Market Value except in 2005 and 2011. This of course coincides with the results done by hypthesis testing.
 
 
 ![image](https://user-images.githubusercontent.com/115379520/202633495-756bd8a0-d74a-4f4e-8a31-3b2254006e5c.png)
 
-
+<br />
 
 
 ## Summary
 
 
-1.) There is a difference in Occupied vs Not Occupied Market Values in 2005 and 2011
-2.) All market values for Occupied units are greater than or equal to Not Occupied units (abides by the Null). In other words, none of the Occupied are less than the Not occupied
-3.) Occupied values greater than non occupied in 2005 and 2011
+1.) Through hypothesis testing againsit the Null, the results reject it for the years 2005 and 20011 and show a difference in Occupied vs Not Occupied Market Values
+2.) All market values for Occupied units are greater than or equal to Not Occupied units
+3.) Occupied values greater than Not occupied in 2005 and 2011 and equal in all other years
 
-The market value of occupied units is never less than that for unoccupied units across all years.
-The market value of occupied units is greater than that for unoccupied units across some years.
-
-
-Are there differences in Market Value means between Occupied vs Not Occupied Units through 2005-2013?
-
-Through hypothesis testing, it was concluded that difference in market value was significant in  the years 2005 and 2011.
-
-For the remaining years, there was no significant difference in market value in Occupied vs Not Occupied units
-
-Do these diffrences have a pattern over the period of 2005 - 2013?
-
-The pattern from this dataset was that the Occupied Market Value Units was always greater than or equal to the Not Occupied Units. It was greater in 2005 and 2011 while equal in all other years. In short, the Occupied Market Value Units were never less than the Not Occupied units
 
