@@ -64,17 +64,24 @@ Here are the distributions of VALUE vs Log Transformed Value. The former distrib
 ## Regression Models
 
 
-Out of the three model variations created, the one with log transformed 'x' and 'y' variables provided the best results.
+There were three linear regression models created: no transformatins, Log Transformed VALUE variable and Log Transformed Value and 'X' variables.
+Out of the three model variations created, the one with log transformed 'X' and VALUE variables provided the best results. Looking at the adjusted R squared there are 0.409944542, 0.496683194 and 0.527696099 respectively. This adjusted R squared shows how much of the variation can be explained by the model. With the last model having 52.77% of the variation being explained by the variables present.
 
-Ln(VALUE) = β0 + β1AGE1 + β2METRO + β3Northeast  + β4Midwest + β5South + β6Ln(LMED) + β7Ln(FMR) + β8BEDRMS + β9BUILT + β10ROOMS + β11PER + β12Ln(ZINC2) + β13Adequate + β14Ln(UTILITY) + β15Ln(OTHERCOST)
 
-![image](https://user-images.githubusercontent.com/115379520/202651101-928e1b88-2919-45c3-8ab9-83091e9b6550.png)
+
+
+![image](https://user-images.githubusercontent.com/115379520/202651915-d493d8b0-1f7b-4b0c-8cfd-12c603915739.png)
+
+![image](https://user-images.githubusercontent.com/115379520/202651990-71bbf16a-a3f3-4ffa-838e-fb4ba07277a9.png)
+
+![image](https://user-images.githubusercontent.com/115379520/202652036-3cd0e1fb-c090-45f4-9c12-137ac0c8d88f.png)
 
 <br />
 
-When testing for Null Hypothesis that Occupied units are greater than or equal to Not Occupied Units. None of the years were statistically significant, so the there is not enough evidence to reject the Null. Thus, on average the Occupied Units are greater than or equal to Not Occupied units in terms of Market Value.
+Here is a brief intrepretion the variables used in the model
 
-![image](https://user-images.githubusercontent.com/115379520/202633246-88dac704-7e2e-4e65-9c2d-4bc50a8a761b.png)
+![image](https://user-images.githubusercontent.com/115379520/202651101-928e1b88-2919-45c3-8ab9-83091e9b6550.png)
+
 
 
 <br />
@@ -82,9 +89,4 @@ When testing for Null Hypothesis that Occupied units are greater than or equal t
 
 ## Summary
 
-
-1.) Through hypothesis testing againsit the Null, the results reject it for the years 2005 and 20011 and show a difference in Occupied vs Not Occupied Market Values
-
-2.) All market values for Occupied units are greater than or equal to Not Occupied units
-
-3.) Occupied values greater than Not occupied in 2005 and 2011 and equal in all other years
+Out of the three models crated, the one with Log transformations on both Y and X variables yielded the best results with 52.77% of the variation in the model being explained by the variables.
